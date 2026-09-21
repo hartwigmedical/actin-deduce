@@ -67,6 +67,13 @@ class TestRegression:
             enabled=annotators_from_group(model, "dates"),
         )
 
+    def test_regression_custom_identifier(self, model):
+        regression_test(
+            model=model,
+            examples_file="tests/data/regression_cases/custom_identifiers.json",
+            enabled=annotators_from_group(model, "custom_identifiers"),
+        )
+
     def test_regression_age(self, model):
         regression_test(
             model=model,
