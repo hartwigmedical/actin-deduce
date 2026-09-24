@@ -1,0 +1,185 @@
+{
+  "examples": [
+    {
+      "id": 0,
+      "text": "ACTN-01-02-0001",
+      "annotations": [
+        {
+          "text": "ACTN-01-02-0001",
+          "start_char": 0,
+          "end_char": 15,
+          "tag": "Onderzoeks.nrC"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "text": "actn-01-02-0001",
+      "annotations": [
+        {
+          "text": "actn-01-02-0001",
+          "start_char": 0,
+          "end_char": 15,
+          "tag": "Onderzoeks.nrC"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "ACTN01029999",
+      "annotations": [
+        {
+          "text": "ACTN01029999",
+          "start_char": 0,
+          "end_char": 12,
+          "tag": "Onderzoeks.nrC"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "ACTN01029999T",
+      "annotations": [
+        {
+          "text": "ACTN01029999T",
+          "start_char": 0,
+          "end_char": 13,
+          "tag": "Onderzoeks.nrC"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "ACTN01029999T2",
+      "annotations": [
+        {
+          "text": "ACTN01029999T2",
+          "start_char": 0,
+          "end_char": 14,
+          "tag": "Onderzoeks.nrC"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Patient ACTN-01-02-0001 besproken in MDO",
+      "annotations": [
+        {
+          "text": "ACTN-01-02-0001",
+          "start_char": 8,
+          "end_char": 23,
+          "tag": "Onderzoeks.nrC"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "ACTN_01_02_0001",
+      "annotations": [
+        {
+          "text": "ACTN_01_02_0001",
+          "start_char": 0,
+          "end_char": 15,
+          "tag": "Onderzoeks.nrC"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "ACTN_01029999",
+      "annotations": [
+        {
+          "text": "ACTN_01029999",
+          "start_char": 0,
+          "end_char": 13,
+          "tag": "Onderzoeks.nrC"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "x_ACTN01029999",
+      "annotations": [
+        {
+          "text": "ACTN01029999",
+          "start_char": 2,
+          "end_char": 14,
+          "tag": "Onderzoeks.nrC"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "ACTN_LUNG01020002",
+      "annotations": [
+        {
+          "text": "ACTN_LUNG01020002",
+          "start_char": 0,
+          "end_char": 17,
+          "tag": "Onderzoeks.nrC"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "ACTN_FR11111111",
+      "annotations": [
+        {
+          "text": "ACTN_FR11111111",
+          "start_char": 0,
+          "end_char": 15,
+          "tag": "Onderzoeks.nrC"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Patient ACTN_LUNG01020002 besproken in MDO",
+      "annotations": [
+        {
+          "text": "ACTN_LUNG01020002",
+          "start_char": 8,
+          "end_char": 25,
+          "tag": "Onderzoeks.nrC"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "ACTN_LUNG",
+      "annotations": []
+    },
+    {
+      "id": 13,
+      "text": "ACTN-123",
+      "annotations": [
+        {
+          "text": "ACTN-123",
+          "start_char": 0,
+          "end_char": 8,
+          "tag": "Onderzoeks.nrC"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "text": "ACTN3",
+      "annotations": []
+    },
+    {
+      "id": 15,
+      "text": "ACTN4 amplificatie, ACTN1 en ACTN2 wildtype",
+      "annotations": []
+    },
+    {
+      "id": 16,
+      "text": "ACTIN-01-02-0001",
+      "annotations": []
+    },
+    {
+      "id": 17,
+      "text": "FACTN01029999",
+      "annotations": []
+    }
+  ]
+}

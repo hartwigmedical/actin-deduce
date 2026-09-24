@@ -616,11 +616,29 @@
         "tag": "Onderzoeks.nrC"
       }
     },
-    "actn_pattern": {
+    "actn_id_separated": {
       "annotator_type": "docdeid.process.RegexpAnnotator",
       "group": "custom_identifiers",
       "args": {
-        "regexp_pattern": "ACTN\\d+[a-zA-Z]",
+        "regexp_pattern": "(?i)(?<![A-Za-z0-9])ACTN[-_]\\d+(?:[-_]\\d+)*(?:[A-Za-z]\\d?)?",
+        "capturing_group": 0,
+        "tag": "Onderzoeks.nrC"
+      }
+    },
+    "actn_id_compact": {
+      "annotator_type": "docdeid.process.RegexpAnnotator",
+      "group": "custom_identifiers",
+      "args": {
+        "regexp_pattern": "(?i)(?<![A-Za-z0-9])ACTN\\d{2,}(?:[A-Za-z]\\d?)?",
+        "capturing_group": 0,
+        "tag": "Onderzoeks.nrC"
+      }
+    },
+    "actn_id_cohort": {
+      "annotator_type": "docdeid.process.RegexpAnnotator",
+      "group": "custom_identifiers",
+      "args": {
+        "regexp_pattern": "(?i)(?<![A-Za-z0-9])ACTN[-_]?[A-Za-z]+[-_]?\\d+(?:[-_]\\d+)*(?:[A-Za-z]\\d?)?",
         "capturing_group": 0,
         "tag": "Onderzoeks.nrC"
       }
